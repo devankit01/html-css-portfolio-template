@@ -147,7 +147,7 @@ progress[value]::-webkit-progress-value{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 auto;
     border: none;
 }
 .wrap__one{
@@ -176,6 +176,9 @@ progress[value]::-webkit-progress-value{
 }
 .edu span a i{
     color: white;
+}
+.skills{
+    flex-direction: column;
 }
 progress[value]::-webkit-progress-bar{
     background-color: rgb(20, 18, 18);
